@@ -7,7 +7,7 @@ library(readr)
 
 #Select the data we need to use for our research
 
-downloaded_data <- read.csv("../../gen/temp/downloaded_data.csv")
+downloaded_data <- read.csv("../../gen/input/downloaded_data.csv")
 
 student_data <- downloaded_data %>%
   select("name", "host_listings_count", "neighbourhood_group_cleansed", "city", "property_type", "price", "availability_365", "maximum_nights", "number_of_reviews", "review_scores_rating")
