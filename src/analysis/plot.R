@@ -7,6 +7,7 @@ library(dplyr)
 library(broom)
 
 combined_mean_data1 <- read.csv("../../gen/input/combined_mean_data.csv")
+private_room <- read.csv("../../gen/input/private_room.csv")
 dir.create("../../gen/output/")
 
 #plot the mean prices. As you can see the price in dublin is the highest, and in manchester the lowest.
