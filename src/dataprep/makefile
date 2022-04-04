@@ -1,8 +1,4 @@
-all: download ../../gen/input/downloaded_data.csv ../../gen/input/private_room.csv
-
-
-download: 
-	Rscript download_packages.R
+all: ../../gen/input/downloaded_data.csv ../../gen/input/private_room.csv
 
 
 ../../gen/input/downloaded_data.csv: download_data.R
