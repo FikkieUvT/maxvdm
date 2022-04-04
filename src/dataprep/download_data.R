@@ -1,3 +1,18 @@
+#step 1
+#download packages
+install.packages("googledrive", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("readr", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("tidyverse", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("dplyr", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("assertive", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("stringr", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("ggplot2", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("‘AggregateR", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("effects", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("knitr", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("ggpubr", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("markdown", repos= 'https://mirror.lyrahosting.com/CRAN/')
+install.packages("stargazer", repos= 'https://mirror.lyrahosting.com/CRAN/')
 #step 2
 library(googledrive)
 library(readr)
